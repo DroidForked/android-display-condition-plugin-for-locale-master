@@ -1,0 +1,13 @@
+displayPluginConditionApp:
+  type: instrumentation
+  app: displayPluginConditionApp/build/outputs/apk/displayPluginConditionApp-debug.apk
+  test: displayPluginConditionApp/build/outputs/apk/displayPluginConditionApp-debug-androidTest.apk
+  timeout: 10m
+  results-history-name: displayPluginConditionApp
+  include: [coverage-environment-variables]
+
+coverage-environment-variables:
+  environment-variables:
+    coverage: true
+    coverageFile: "/sdcard/coverage.ec"
+  directories-to-pull: ["/sdcard"]
