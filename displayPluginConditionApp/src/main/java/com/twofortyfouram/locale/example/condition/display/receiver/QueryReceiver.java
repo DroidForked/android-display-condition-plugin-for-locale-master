@@ -32,8 +32,7 @@ public final class QueryReceiver extends AbstractPluginConditionReceiver {
     @Override
     protected int getPluginConditionResult(@NonNull final Context context,
                                            @NonNull final Bundle bundle, final Intent intent) {
-        int result = com.twofortyfouram.locale.api.Intent.RESULT_CONDITION_UNKNOWN;
-
+        int result;
         final boolean isScreenOn = (((PowerManager) context
                 .getSystemService(Context.POWER_SERVICE)).isScreenOn());
         final boolean conditionState = PluginBundleValues.isDisplayOn(bundle);
