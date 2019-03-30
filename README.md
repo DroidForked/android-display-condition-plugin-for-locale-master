@@ -1,5 +1,9 @@
 [![CircleCI](https://circleci.com/gh/twofortyfouram/android-display-condition-plugin-for-locale.svg?style=svg)](https://circleci.com/gh/twofortyfouram/android-display-condition-plugin-for-locale)
 
+# This repo is reedited for Tasker app and so it might not work for Locale
+# This repo is reedited for Tasker app and so it might not work for Locale
+# This repo is reedited for Tasker app and so it might not work for Locale
+
 # Overview
 [Locale](https://play.google.com/store/apps/details?id=com.twofortyfouram.locale) allows developers to create plug-in conditions and settings.  The android-display-condition-plugin-for-locale implements an example plug-in condition.  This project is the final layer of the [Locale Developer Platform documentation](http://www.twofortyfouram.com/developer).
 
